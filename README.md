@@ -1,2 +1,2 @@
-# Html-CSS-Javascript
-Html Css And JS Codes
+# Html
+Html Codes
