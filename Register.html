@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <style>
+        body{
+             background: linear-gradient(to right, #74ebd5, #ACB6E5);
+        }
+         h1{
+            color: rgb(24, 136, 255);
+            text-align: center;
+            margin-top: 25px;
+        }
+        div{
+            justify-content: center;
+            text-align: center;
+            margin-inline: 35%;
+            padding-block: 10px ;
+            border: solid;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div>
+    <h1>Register Page</h1>
+    <!-- <hr> -->
+    <form action="Login.html">
+
+        <label>Name : </label>
+        <input type="text" placeholder="Enter Full Name" name="employeeName">
+        <br>
+        <br>
+
+        <label>Student ID : </label>
+        <input type="text" placeholder="Enter Student ID" name="employeeId">
+        <br>
+        <br>
+
+        <label>Date of Birth : </label>
+        <input type="date" name="dob">
+        <br>
+        <br>
+
+        <label>Gender : </label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+        <br>
+        <br>
+
+        <label>Phone Number : </label>
+        <input type="tel" placeholder="Enter Contact Number" name="contact">
+        <br>
+        <br>
+
+        <label>Email Address : </label>
+        <input type="email" placeholder="Enter Email" name="email">
+        <br>
+        <br>
+
+        <label>Residential Address : </label>
+        <textarea placeholder="Enter Address" name="address" rows="3" cols="30"></textarea>
+        <br><br>
+
+        <label>Adhar Number</label>
+        <input type="text" placeholder="Enter Adhar Number" name="AdharId">
+        <br><br>
+
+        <label>Upload ID Proof : </label>
+        <input type="file" name="idProof">
+        <br><br>
+
+        <label for="">Password</label>
+        <input type="password" placeholder="Set Password">
+        <br>
+        <br>
+
+        <button>Submit</button>
+
+
+
+    </form>
+    </div>
+</body>
+</html>
