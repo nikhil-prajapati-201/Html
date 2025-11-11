@@ -1,0 +1,80 @@
+/* Basic CSS for demonstrating core concepts */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e1fbff;
+    margin: 20px;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #555;
+    line-height: 1.5;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Image styling */
+img {
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* List styling */
+ul li, ol li {
+    margin: 5px 0;
+}
+
+/* Div styling */
+.card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.highlight {
+    background-color: yellow;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+/* Form styles */
+form {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+input {
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
